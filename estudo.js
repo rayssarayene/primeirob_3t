@@ -71,3 +71,23 @@ function total(){
     //document.write("resultado: " + r);
 }
 
+
+function calculaRaiz(){
+     let a = 1; //pegar a
+     let b = -5; //pegar b
+     let c = 6; //pegar o c
+
+     let delta = (b*b) - (4*a*c);
+     
+     if (delta < 0){
+        alert("Não possui raiz real");
+     }  else if (delta == 0){
+        let x1 = (-b)/(2*a);
+        alert("x1 = x2 = " + x1);
+     } else {
+        let x1 = ( ( -b) + Math.sqrt))(desta);
+        let x2 = ( ( -b) + Math.sqrt))(desta);
+        
+     }
+}
+
